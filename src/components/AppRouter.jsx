@@ -16,10 +16,9 @@ function AppRouter() {
 			<Route path="/about" element={<About />}></Route>
 			<Route path="/posts" element={<Posts />}></Route>
 			<Route path="/posts/:id" element={<PostIdPage />}></Route>
-			<Route path="/error" element={<Error />}></Route>
 			<Route
 				path="*"
-				element={<Navigate to="/error" element={<Error />} />}
+				element={<Navigate to="/posts" element={<Posts />} />}
 			/>
 		</Routes>
 	);
