@@ -3,7 +3,7 @@ import PostList from "../components/PostList";
 import "../styles/App.css";
 import MyButton from "../components/UI/button/MyButton";
 import PostForm from "../components/PostForm";
-import PostFilter from "../components/ PostFilter";
+import PostFilter from "../components/PostFilter";
 import MyModal from "../components/UI/myModal/MyModal";
 import { usePosts } from "../components/hooks/usePosts";
 import PostService from "../api/PostService";
